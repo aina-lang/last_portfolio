@@ -30,7 +30,7 @@ type Skill = { n: string; t: string; lv: number; v: number; tags: string[]; hot:
 
 const SKILLS: Skill[] = [
   { n: '01', t: 'Web & API', lv: 24, v: 92, tags: ['Next.js', 'ReactJS', 'Laravel', 'NestJS', 'ASP.NET', 'API REST'], hot: 2 },
-  { n: '02', t: 'Mobile', lv: 23, v: 90, tags: ['React Native', 'Flutter', 'Expo', 'Firebase'], hot: 2 },
+  { n: '02', t: 'Mobile', lv: 23, v: 90, tags: ['React Native', 'Flutter', 'Expo', 'Supabase', 'Firebase', 'App Store', 'Play Store'], hot: 2 },
   { n: '03', t: 'Langages', lv: 22, v: 88, tags: ['TypeScript', 'Dart', 'Python', 'C', 'C#'], hot: 3 },
   { n: '04', t: 'Bases de données', lv: 20, v: 85, tags: ['MySQL', 'PostgreSQL', 'MongoDB'], hot: 2 },
   { n: '05', t: 'Conception', lv: 19, v: 82, tags: ['UML', 'Merise', 'Agile Scrum', 'Design Patterns'], hot: 2 },
@@ -135,7 +135,7 @@ const ARCS: Arc[] = [
     rank: 'S', bg: 'p-bg-3', code: 'FARM', t: 'Farm Connect', year: '2026',
     client: 'Prest Agri Services · Application publiée', tag: 'React Native · Supabase',
     shape: 'mobile',
-    techs: ['React Native', 'Expo', 'Supabase', 'PostgreSQL', 'Hors-ligne', 'Export PDF'],
+    techs: ['React Native', 'Expo', 'Supabase', 'PostgreSQL', 'Hors-ligne', 'Export PDF', 'App Store', 'Play Store'],
     imgs: [
       '/projets/farmconnect-accueil.jpg',
       '/projets/farmconnect-materiels.jpg',

@@ -25,8 +25,17 @@ const pressStart = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "Rakoto Dev — Fullstack · Manga Edition",
-  description: "Portfolio de Rakoto Dev",
+  title: "Mercia — Développeur Fullstack",
+  description:
+    "Portfolio de RAFANDEFERANA Maminiaina Mercia, développeur fullstack web et mobile : React Native, Next.js, NestJS, Laravel.",
+  openGraph: {
+    title: "Mercia — Développeur Fullstack",
+    description:
+      "Développeur fullstack web et mobile — React Native, Next.js, NestJS, Laravel.",
+    type: "profile",
+    locale: "fr_FR",
+    images: ["/portrait.jpg"],
+  },
 };
 
 export default function RootLayout({
